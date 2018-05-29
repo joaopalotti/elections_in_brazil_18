@@ -1,0 +1,88 @@
+{   "name": "Brazil",
+    "scholarities":[
+      {
+        "name" : "Graduated",
+        "or" : [3,7,8,9,11]
+      },
+      {
+        "name" : "No Degree",
+        "or" : [1,12,13]
+      },{
+        "name" : "High School",
+        "or" : [2,4,5,6,10]
+      },
+      null
+    ],
+    "relationship_statuses" : [{
+      "or": [1, 11, 12, 13],
+      "name": "Single"
+    },
+    {
+      "or": [9, 10, 2],
+      "name": "Dating"
+    },
+    {
+      "or": [3, 4, 7, 8],
+      "name": "Married"
+    },
+    null
+    ],
+    "geo_locations": [
+      {"name": "countries", "values": ["BR"], "location_types": ["home","recent"]},
+      {"name": "regions", "values":[{"key":"438", "country_code":"BR", "name": "Acre"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"439", "country_code":"BR", "name": "Alagoas"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"440", "country_code":"BR", "name": "Amapá"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"441", "country_code":"BR", "name": "Amazonas"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"442", "country_code":"BR", "name": "Bahia"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"443", "country_code":"BR", "name": "Ceará"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"444", "country_code":"BR", "name": "Federal Distric"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"445", "country_code":"BR", "name": "Espírito Santo"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"446", "country_code":"BR", "name": "Mato Grosso do Sul"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"447", "country_code":"BR", "name": "Maranhão"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"448", "country_code":"BR", "name": "Mato Grosso"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"449", "country_code":"BR", "name": "Minas Gerais"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"450", "country_code":"BR", "name": "Pará"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"451", "country_code":"BR", "name": "Paraíba"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"452", "country_code":"BR", "name": "Paraná"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"453", "country_code":"BR", "name": "Piauí"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"454", "country_code":"BR", "name": "Rio de Janeiro"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"455", "country_code":"BR", "name": "Rio Grande do Norte"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"456", "country_code":"BR", "name": "Rio Grande do Sul"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"457", "country_code":"BR", "name": "Rondônia"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"458", "country_code":"BR", "name": "Roraima"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"459", "country_code":"BR", "name": "Santa Catarina"}], "location_types" : ["recent","home"]},
+      {"name": "regions", "values":[{"key":"460", "country_code":"BR", "name": "São Paulo"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"461", "country_code":"BR", "name": "Sergipe"}], "location_types" : ["recent","home"]},
+      {"name": "regions", "values":[{"key":"462", "country_code":"BR", "name": "Goiás"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"463", "country_code":"BR", "name": "Pernambuco"}], "location_types" : ["home","recent"]},
+      {"name": "regions", "values":[{"key":"464", "country_code":"BR", "name": "Tocantins"}], "location_types" : ["home","recent"]}
+    ],
+    "ages_ranges": [
+        {"min":13},
+        {"min":13, "max":18},
+        {"min":19, "max":30},
+        {"min":31, "max":45},
+        {"min":46, "max":65},
+        {"min":65}
+    ],
+   "genders": [0, 1, 2],
+   "behavior": [null],
+   "interests": [
+    null,
+    {"or": [6003368368602], "name": "Luiz Inácio Lula da Silva"},
+    {"or": [6003098123058], "name" : "Marina Silva"},
+    {"or": [6013219668741], "name" : "Jair Bolsonaro"},
+    {"or": [6003351633200], "name" : "Ciro Gomes" },
+    {"or": [6002877867972], "name" : "Geraldo Alckmin" },
+    {"or": [6012462369384], "name" : "Alvaro Dias"},
+
+    {"or": [6003374381274], "name" : "Right-wing politics"},
+    {"or": [6002972640194], "name" : "Far-right politics" },
+    {"or": [6003278210980], "name" : "Left-wing politics" },
+    {"or": [6003316479591], "name" : "Far-left politics" },
+    
+    {"or": [6003173897378], "name" : "Workers' Party (Brazil)" },
+    {"or": [6003283489056], "name" : "psdb"},
+    {"or": [6003108558790], "name" : "Brazilian Democratic Movement Party" }
+   ]
+}
